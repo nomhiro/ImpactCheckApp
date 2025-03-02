@@ -1,0 +1,127 @@
+[
+  {
+    "headerName": "変化点項目",
+    "children": [
+      {
+        "field": "分類1",
+        "spanRows": true
+      },
+      {
+        "field": "分類2",
+        "spanRows": true
+      },
+      {
+        "field": "分類3",
+        "spanRows": true
+      },
+      {
+        "field": "分類4",
+        "spanRows": true
+      },
+      {
+        "field": "分類5"
+      }
+    ]
+  },
+  {
+    "headerName": "変更点内容",
+    "children": [
+      {
+        "columnGroupShow": "open",
+        "field": "ベース車両"
+      },
+      {
+        "columnGroupShow": "open",
+        "field": "開発車両"
+      },
+      {
+        "columnGroupShow": "open",
+        "field": "変化内容"
+      }
+    ]
+  },
+  {
+    "headerName": "走行性能",
+    "children": [
+      {
+        "headerName": "動力性能",
+        "children": [
+          {
+            "headerName": "加速性能",
+            "children": [
+              {
+                "headerName": "発進加速0-100km/h(日本･欧州)0-60mph(米国)",
+                "children": [
+                  {
+                    "field": "停車からのWOT加速（TSA1101G）"
+                  }
+                ]
+              },
+              {
+                "headerName": "追越し加速_初期条件;_Eng-OFF40-70km/h(日本)30-50mph(米国)80-120km/h(欧州)",
+                "children": [
+                  {
+                    "field": "所定車速からのWOT加速（TSA1101G）"
+                  }
+                ]
+              },
+              {
+                "headerName": "最高速度",
+                "children": [
+                  {
+                    "field": "最高速度@Wout0（TSA1103G）"
+                  }
+                ]
+              },
+              {
+                "headerName": "システム出力",
+                "children": [
+                  {
+                    "field": "エンジン出力+（電池出力-補機損失）×電力変換効率（GTR-21/SH22-0028）"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "headerName": "登坂性能",
+            "children": [
+              {
+                "headerName": "前進登坂性能",
+                "children": [
+                  {
+                    "field": "前進登坂性能_GVMで発進&登坂可能なこと，開始条件はLA#4飽和（TSA1102G）"
+                  }
+                ]
+              },
+              {
+                "headerName": "後進登坂性能",
+                "children": [
+                  {
+                    "field": "後進登坂性能_GVMで発進&登坂可能なこと，開始条件はLA#4飽和（TSA1102G）"
+                  }
+                ]
+              },
+              {
+                "headerName": "段差乗り越え性能",
+                "children": [
+                  {
+                    "field": "Rレンジ×アクセル開度×基準段差で乗り越え可能なこと"
+                  }
+                ]
+              },
+              {
+                "headerName": "ﾄﾚｰﾗ搬出",
+                "children": [
+                  {
+                    "field": "ﾄﾚｰﾗ輪留め（溝）から前後進共に搬出可能なこと"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
